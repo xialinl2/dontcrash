@@ -1,0 +1,29 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 25vw;
+        margin: 2vw 4vw ;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 0;
+        margin: 0;
+        padding: 0;
+      }
+      
+.row {
+ 
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.psize{
+    font-size: 25px;
+}
+
+.textformat{
+    padding:1vw 6vw;
+}
